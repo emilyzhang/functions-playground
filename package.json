@@ -1,0 +1,22 @@
+{
+  "name": "functions-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyzhang/functions-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyzhang/functions-playground/issues"
+  },
+  "homepage": "https://github.com/emilyzhang/functions-playground#readme",
+  "devDependencies": {
+    "@netlify/functions": "^0.7.2"
+  }
+}
