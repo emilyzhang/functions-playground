@@ -5,6 +5,7 @@ async function handler(event, context) {
     statusCode: 200,
     headers: {
       "Content-Type": "text/html",
+      Etag: "12345",
     },
     body: `
     <!DOCTYPE html>
