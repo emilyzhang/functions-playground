@@ -6,7 +6,7 @@ async function handler(event, context) {
     headers: {
       "Content-Type": "text/html",
       Etag: "12345",
-      "Cache-Control": "max-age=1000,no-store",
+      "Cache-Control": "max-age=3600,no-store",
     },
     body: `
     <!DOCTYPE html>
