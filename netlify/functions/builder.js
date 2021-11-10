@@ -1,4 +1,4 @@
-const { builder } = require("@netlify/functions@beta");
+const { builder } = require("@netlify/functions");
 
 async function handler(event, context) {
   return {
