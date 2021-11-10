@@ -3,7 +3,7 @@ const { builder } = require("@netlify/functions");
 async function handler(event, context) {
   return {
     statusCode: 200,
-    ttl: 0,
+    ttl: 7200,
     headers: {
       "Content-Type": "text/html",
       Etag: "12345",
