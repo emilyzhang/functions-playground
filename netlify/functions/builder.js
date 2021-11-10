@@ -13,7 +13,7 @@ async function handler(event, context) {
     <!DOCTYPE html>
 	    <html>
 		    <body>
-		      Hello World
+		      Hello World 1
 		    </body>
     </html>
     `,
