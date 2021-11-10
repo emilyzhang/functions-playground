@@ -1,13 +1,13 @@
-const { builder } = require("@netlify/functions");
+const { builder } = require("@netlify/functions@beta");
 
 async function handler(event, context) {
   return {
     statusCode: 200,
+    ttl: 3600,
     headers: {
       "Content-Type": "text/html",
       Etag: "12345",
       "Cache-Control": "max-age=100,no-store",
-      "X-Nf-ODb-TTL": "3600",
     },
     body: `
     <!DOCTYPE html>
