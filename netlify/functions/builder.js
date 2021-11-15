@@ -1,6 +1,6 @@
 const { builder } = require("@netlify/functions");
 
-function handler(event, context) {
+async function handler(event, context) {
   return {
     statusCode: 200,
     headers: {
