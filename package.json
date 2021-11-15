@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/emilyzhang/functions-playground#readme",
   "devDependencies": {
-    "@netlify/functions": "^0.8.1-beta.0"
+    "@netlify/functions": "^8.0.1-beta.1"
   }
 }
