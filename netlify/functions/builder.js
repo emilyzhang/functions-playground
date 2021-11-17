@@ -8,7 +8,7 @@ async function handler(event, context) {
     },
     ttl: 1,
     body: JSON.stringify({
-      timestamp: Date.now(),
+      timestamp: new Date(),
     }),
   };
 }
