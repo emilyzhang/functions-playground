@@ -8,7 +8,7 @@ async function handler(event, context) {
     },
     ttl: parseInt(event.headers["ttl"], 10),
     body: JSON.stringify({
-      timestamp: new Date(),
+      // timestamp: new Date(),
       random_number: Math.random(),
       ttl: parseInt(event.headers["ttl"], 10),
     }),
