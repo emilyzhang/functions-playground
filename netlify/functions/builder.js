@@ -6,7 +6,7 @@ async function handler(event, context) {
     headers: {
       "Content-Type": "text/html",
     },
-    ttl: event.path,
+    ttl: event.headers["ttl"],
     body: JSON.stringify({
       timestamp: new Date(),
       random_number: Math.random(),
