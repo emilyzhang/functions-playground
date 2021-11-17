@@ -6,7 +6,7 @@ async function handler(event, context) {
     headers: {
       "Content-Type": "text/html",
     },
-    ttl: 2600,
+    ttl: 4,
     body: JSON.stringify({
       timestamp: new Date(),
     }),
