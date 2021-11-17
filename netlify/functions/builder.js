@@ -10,7 +10,7 @@ async function handler(event, context) {
     body: JSON.stringify({
       timestamp: new Date(),
       random_number: Math.random(),
-      path: event.path,
+      ttl: parseInt(event.headers["ttl"], 10),
     }),
   };
 }
