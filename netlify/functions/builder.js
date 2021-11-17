@@ -9,6 +9,7 @@ async function handler(event, context) {
     ttl: 1,
     body: JSON.stringify({
       timestamp: new Date(),
+      random_number: Math.random(),
     }),
   };
 }
