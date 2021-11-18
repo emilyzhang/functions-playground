@@ -13,7 +13,6 @@ async function handler(event, context) {
       // timestamp: new Date(),
       random_number: Math.random(),
       ttl: parseInt(event.headers["ttl"], 10),
-      secret: secrets,
     }),
   };
 }
