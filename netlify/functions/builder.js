@@ -1,9 +1,7 @@
 const { builder, NetlifySecrets, getSecrets } = require("@netlify/functions");
 
 async function handler(event, context) {
-  let secrets = {};
-
-  secrets = await getSecrets(event);
+  let secrets = await getSecrets(event);
   return {
     statusCode: 200,
     headers: {
