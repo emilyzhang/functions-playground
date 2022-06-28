@@ -15,7 +15,7 @@ async function handler(event, context) {
     };
   } else {
     return {
-        statusCode: 202,
+        statusCode: 200,
         headers: {
           "Content-Type": "text/html",
         },
