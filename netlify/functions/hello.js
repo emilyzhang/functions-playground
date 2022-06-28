@@ -11,6 +11,7 @@ async function handler(event, context) {
         timestamp: new Date(),
         random: "hello",
       }),
+      event: event,
     };
   } else {
     return {
@@ -22,6 +23,7 @@ async function handler(event, context) {
           timestamp: new Date(),
           random: "you didn't say hello!",
         }),
+        event: event,
       };
   }
 }
