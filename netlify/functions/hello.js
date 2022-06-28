@@ -10,8 +10,8 @@ async function handler(event, context) {
       body: JSON.stringify({
         timestamp: new Date(),
         random: "hello",
+        event: event,
       }),
-      event: event,
     };
   } else {
     return {
@@ -22,8 +22,8 @@ async function handler(event, context) {
         body: JSON.stringify({
           timestamp: new Date(),
           random: "you didn't say hello!",
+          event: event,
         }),
-        event: event,
       };
   }
 }
