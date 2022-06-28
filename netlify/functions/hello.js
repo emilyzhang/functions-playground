@@ -1,7 +1,7 @@
 const { builder } = require("@netlify/functions");
 
 async function handler(event, context) {
-  if (event[path] == "hello") {
+  if (event.path == "hello") {
     return {
       statusCode: 200,
       headers: {
