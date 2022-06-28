@@ -1,2 +1,2 @@
 /test-builder-hello/*  /.netlify/builders/hello/*   200
-/hello/                /test-builder-hello/
+/hello/*                /test-builder-hello/*
