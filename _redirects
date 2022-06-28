@@ -1,2 +1,2 @@
-/test-builder-hello/*  /.netlify/builders/hello/*   200
-/hello/*                /test-builder-hello/*
+/test-builder-hello/*  /.netlify/builders/hello/:splat   200
+/hello/*                /test-builder-hello/:splat
