@@ -1,7 +1,7 @@
 const { builder } = require("@netlify/functions");
 
 async function handler(event, context) {
-  if (event.path == "/hello") {
+  if (event.path == "/test-builder-hello/") {
     return {
       statusCode: 200,
       headers: {
@@ -10,7 +10,6 @@ async function handler(event, context) {
       body: JSON.stringify({
         timestamp: new Date(),
         random: "hello",
-        event: event,
       }),
     };
   } else {
